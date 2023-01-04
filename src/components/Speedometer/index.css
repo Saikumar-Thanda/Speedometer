@@ -1,0 +1,84 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 38px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+.image {
+  width: 300px;
+  height: 125px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 700px;
+    height: 300px;
+  }
+}
+
+.heading {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.caption {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .caption {
+    font-size: 22px;
+  }
+}
+.button {
+  border-radius: 10px;
+  border: 0px solid;
+  margin-right: 20px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-blue {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+.btn-transparent {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
